@@ -11,8 +11,8 @@
     <tr *ngFor="let palestrante of palestrantes">
       <td align="justified">{{ palestrante.nomePalestrante }}</td>
       <td align="justified">{{ palestrante.tituloPalestra }}</td>
-      <td align="justified"><a [routerLink]="['/palestrante', palestrante._id]" class="btn btn-success"> <fa name="edit"></fa> Editar</a></td>
-      <td align="justified"><button (click)="excluirPalestrante(palestrante._id)" class="btn btn-danger"> <fa name="trash"></fa> Excluir</button></td>
+      <td align="justified"><a [routerLink]="['/palestrante', palestrante._id]" class="btn btn-success"><fa-icon [icon]="['fas','edit']"></fa-icon> Editar</a></td>
+      <td align="justified"><button (click)="excluirPalestrante(palestrante._id)" class="btn btn-danger"><fa-icon [icon]="['fas','trash']"></fa-icon> Excluir</button></td>
     </tr>
   </tbody>
 </table>

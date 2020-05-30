@@ -1,14 +1,14 @@
 /**
  * Arquivo: config/database.js
  * Descrição: arquivo responsável pelas 'connectionStrings' da aplicação: MongoDb & CosmosDb
- * Data: 01/08/2019
+ * Data: 29/05/2020
  * Author: Glaucia Lemos
  */
 
 module.exports = {
   local:
   {
-    localUrl: 'mongodb://localhost:27017/serverless-capiconf-demo',
+    localUrl: 'mongodb://localhost:27017/serverless-wmc-demo',
   },
 
   /* cosmosdb:

@@ -34,7 +34,7 @@
         <div class="form-group">
           <button (click)="adicionarPalestrante(nomePalestrante.value, tituloPalestra.value)"
             type="submit" class="btn btn-primary"
-            [disabled]="palestranteForm.pristine || palestranteForm.invalid"><fa name="plus"></fa> Palestrante</button>
+            [disabled]="palestranteForm.pristine || palestranteForm.invalid"><fa-icon [icon]="['fas','user-plus']"></fa-icon> Palestrante</button>
         </div>
       </div>
     </form>
