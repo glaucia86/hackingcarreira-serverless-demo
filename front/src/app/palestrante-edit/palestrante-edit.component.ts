@@ -38,7 +38,7 @@ export class PalestranteEditComponent implements OnInit {
   /**
    * Método responsável por atualizar o 'Palestrante'
    */
-  atualizarPalestrante(nomePalestrante, tituloPalestra, id) {
+  atualizarPalestrante(nomePalestrante, tituloPalestra) {
     this.route.params.subscribe(params => {
       this.palestranteService.atualizarPalestrante(nomePalestrante, tituloPalestra, params.id);
       // ==> Depois que clicar no botão 'Atualizar' redirecionar para a lista de Palestrantes

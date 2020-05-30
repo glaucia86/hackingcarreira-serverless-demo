@@ -20,34 +20,39 @@ export class PalestranteGetComponent implements OnInit {
       .getPalestrantes()
       .subscribe((data: Palestrante[]) => {
         this.palestrantes = data;
-    });
+      });
   }
 
   /**
    * Método responsável por excluir um 'Palestrante' pelo 'Id'
    */
   excluirPalestrante(id: any) {
-    this.palestranteService.excluirPalestrante(id).subscribe(res => {
-      const index = this.palestrantes.indexOf(id);
-      this.palestrantes.splice(index, 1);
 
-      Swal.fire({
-        title: 'Você tem certeza que deseja excluir o(a) Palestrante?',
-        text: 'Atenção! Este(a) Palestrante será Excluído(a)!',
-        type: 'warning',
-        showCancelButton: true,
-        confirmButtonColor: '#3085d6',
-        cancelButtonColor: '#d33',
-        confirmButtonText: 'Sim. Exclua!'
-      }).then((result) => {
-        if (result.value) {
-          Swal.fire(
-            'Excluído(a)!',
-            'Palestrante foi excluído(a).',
-            'success'
-          );
-        }
-      });
+    Swal.fire({
+      title: 'Você tem certeza que deseja excluir o(a) Palestrante?',
+      text: 'Atenção! Este(a) Palestrante será Excluído(a)!',
+      type: 'warning',
+      showCancelButton: true,
+      confirmButtonColor: '#3085d6',
+      cancelButtonColor: '#d33',
+      confirmButtonText: 'Sim. Exclua!'
+    }).then((result) => {
+      if (result.value === true) {
+        this.palestranteService.excluirPalestrante(id).subscribe();
+        const index = this.palestrantes.indexOf(id);
+        this.palestrantes.splice(index, 1);
+        Swal.fire(
+          'Excluído(a)!',
+          'Palestrante foi excluído(a).',
+          'success'
+        );
+      } else if (result.dismiss === Swal.DismissReason.cancel) {
+        Swal.fire(
+          'Cancelado!',
+          'Retornando a lista de palestrantes',
+          'error'
+        );
+      }
     });
   }
 
