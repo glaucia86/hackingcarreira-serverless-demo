@@ -1,7 +1,0 @@
-{
-    "azureFunctions.deploySubpath": ".serverless-api-mongo",
-    "azureFunctions.projectLanguage": "JavaScript",
-    "azureFunctions.projectRuntime": "~2",
-    "debug.internalConsoleOptions": "neverOpen",
-    "azureFunctions.preDeployTask": "npm prune"
-}

@@ -1,5 +1,5 @@
 {
-    "azureFunctions.deploySubpath": "serverless-api-mongo",
+    "azureFunctions.deploySubpath": "crud-serverless-mongodb-teste",
     "azureFunctions.postDeployTask": "npm install",
     "azureFunctions.projectLanguage": "JavaScript",
     "azureFunctions.projectRuntime": "~3",
