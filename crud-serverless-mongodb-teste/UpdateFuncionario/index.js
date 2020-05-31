@@ -1,10 +1,10 @@
 // @ts-nocheck
 /**
  * Arquivo: UpdateFuncionario/index.js
- * Data: 24/08/2019
+ * Data: 30/05/2020
  * Descrição: arquivo responsável por atualizar 'Funcionário' por Id
  *
- * Digitar o snippet: mongo-serverless-update
+ * Digitar o snippet: crud-serverless-update
  */
 
 const { ObjectID } = require('mongodb')

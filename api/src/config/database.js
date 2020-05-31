@@ -8,12 +8,12 @@
 module.exports = {
   local:
   {
-    localUrl: 'mongodb://localhost:27017/meanserverless',
+    localUrl: 'mongodb://localhost:27017/crud-worshop-mean',
   },
 
   /* cosmosdb:
   {
-    name: 'meanserverless',
+    name: 'crud-worshop-mean',
     url: 'mongodb://<cosmosdb_name>:<primary_master_key>@<cosmosdb_name>.documents.azure.com:10255/meanserverless?ssl=true',
     port: 10255,
   }, */

@@ -1,10 +1,10 @@
 // @ts-nocheck
 /**
  * Arquivo: DeleteFuncionario/index.js
- * Data: 24/08/2019
+ * Data: 30/05/2020
  * Descrição: arquivo responsável excluir um 'Funcionário' pelo Id
  *
- * Digitar o snippet: mongo-serverless-delete
+ * Digitar o snippet: crud-serverless-delete
  */
 
 const { ObjectID } = require('mongodb')

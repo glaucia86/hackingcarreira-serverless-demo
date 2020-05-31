@@ -1,10 +1,10 @@
 // @ts-nocheck
 /**
  * Arquivo: GetFuncionarioById/index.js
- * Data: 24/08/2019
+ * Data: 30/05/2020
  * Descrição: arquivo responsável por listar Funcionário pelo Id
  *
- * Digitar o snippet: mongo-serverless-listOne
+ * Digitar o snippet: crud-serverless-listOne
  */
 
 const { ObjectID } = require('mongodb')

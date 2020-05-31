@@ -1,9 +1,9 @@
 /**
  * Arquivo: CreateFuncionario/index.js
- * Data: 24/08/2019
+ * Data: 30/05/2020
  * Descrição: arquivo responsável por criar um novo 'Funcionário'
  *
- * Digitar o snippet: mongo-serverless-create
+ * Digitar o snippet: crud-serverless-create
  */
 
 const createMongoClient = require('../shared/mongo')

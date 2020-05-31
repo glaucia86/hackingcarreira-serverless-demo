@@ -1,7 +1,7 @@
 /**
  * Arquivo: mongo.js
- * Data: 24/08/2019
- * Descrição: arquivo responsável por tratar a conexão da Base de Dados localmente
+ * Data: 30/05/2020
+ * Descrição: arquivo responsável por tratar a conexão da Base de Dados localmente no MongoDB
  *
  * Digitar o snippet: mongo-serverless-conn
  */
@@ -9,8 +9,8 @@
 const { MongoClient } = require('mongodb')
 
 const config = {
-  url: 'mongodb://localhost:27017/crud-serverless-mongo-wavy',
-  dbName: 'crud-serverless-mongo-wavy'
+  url: 'mongodb://localhost:27017/crud-workshop-mean-az',
+  dbName: 'crud-workshop-mean-az'
 }
 
 async function createConnection () {

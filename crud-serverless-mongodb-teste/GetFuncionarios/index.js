@@ -1,9 +1,9 @@
 /**
  * Arquivo: GetFuncionarios/index.js
- * Data: 24/08/2019
+ * Data: 30/05/2020
  * Descrição: arquivo responsável por listar todos os 'Funcionários'
  *
- * Digitar o snippet: mongo-serverless-list
+ * Digitar o snippet: crud-serverless-list
  */
 
 const createMongoClient = require('../shared/mongo')
