@@ -8,7 +8,7 @@
 module.exports = {
   local:
   {
-    localUrl: 'mongodb://localhost:27017/crud-worshop-mean',
+    localUrl: 'mongodb://localhost:27017/crud-workshop-mean',
   },
 
   /* cosmosdb:
