@@ -2,7 +2,7 @@
 
 [![image.png](https://i.postimg.cc/gc4jHtNQ/image.png)](https://postimg.cc/7bGqx9vn)
 
-Repositório responsável pelas demos relacionadas ao evento Hacking de Carreira WoMakersCode 2020 **[Hacking de Carreira WoMakersCode 2020](https://womakerscode.org/carreira)**
+Repositório responsável pelas demos relacionadas ao evento **[Hacking de Carreira WoMakersCode 2020](https://womakerscode.org/carreira)**
 
 ## Recursos Utilizados 🚀
 
